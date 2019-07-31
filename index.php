@@ -1,5 +1,6 @@
+<!DOCTYPE html>
 <html>
-<head><title>Hello</title></head>
-</head>  
-<body>
-<p>WORLD</p>
+  <head>
+    <title>HELLO</title></head>
+  <body>
+    <p>WORLD</p>
