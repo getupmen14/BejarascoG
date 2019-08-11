@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <header>
-  <head>
-    <title>Page Title</title>
-  </head>
-    <main>
-  <body>
-    <h1>Google Chrome<h1>
-      <p>Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS, and Android. The browser is also the main component of Chrome OS, where it serves as the platform for web apps.</p>
-  <footer>
-      <details>
-  <summary>Source:</summary>
-  <p>https://www.w3schools.com/html/</p>
-      </details>
-      </body>
+<head><title>Assignmet 05</title></head>
+<body><center>
+	<h1>BejarascoG Photo Gallery</h1>
+	<h2>List of Photos</h2>
+	<a href="photo1.html">Photo 1</a>
+	<br>
+	<a href="photo2.html">Photo 2</a>
+	<br>
+	<a href="photo3.html">Photo 3</a>
+</body>
