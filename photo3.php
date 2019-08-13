@@ -6,6 +6,6 @@
 	<br>
 	<img src="luffy3.png" width="200" height="300">
 </center>
-<a href="Assignment 05.php">Back to Home</a>
+<a href="index.php">Back to Home</a>
 </body>
 </html>
