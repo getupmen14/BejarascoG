@@ -4,7 +4,7 @@
 <body><center>
 	<h1>BejarascoG Photo Gallery</h1>
 	<br>
-	<img src="luffy3.jpg" width="200" height="300">
+	<img src="luffy3.png" width="200" height="300">
 </center>
 <a href="Assignment 05.html">Back to Home</a>
 </body>
