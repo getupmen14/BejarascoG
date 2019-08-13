@@ -11,4 +11,3 @@
 <a href="photo2.html">Next Photo</a>
 </div>
 </body>
-<img src="luffy1.jpg">
