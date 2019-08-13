@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<php>
 <head><title>Assignmet 05</title></head>
 <body><center>
 	<h1>BejarascoG Photo Gallery</h1>
