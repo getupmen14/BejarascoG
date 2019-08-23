@@ -7,7 +7,7 @@
 	</br>
 	<img src="op1.jpg">
 	</br>
-	<a href="login.php">Logout</a>
+	<a href="index.php">Logout</a>
 	</br>
 	</br>
 	<a href="home.php">Back to Home</a>
