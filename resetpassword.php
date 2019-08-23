@@ -1,13 +1,13 @@
-<!DODCTYPE html>
+<!DOCTYPE html>
 <html>
-<head><title>Reset Password</title></head>
-<body align="center">
-	<h1>Enter</h1>
-<form action="/action_page.html">
-	<div class="container">
-		<label for="email"><b>Email Address:</b></label>
-		<input type="text" placeholder="Enter Email">
-	<name="email" required>
-</form>
+<head><title>Login, Register and Photo Gallery</title></head>
+<body background="background1.jpg"><center>
+	<h1>Enter Email Address</h1>
+	</br>
+	<input type="email"><b></label>
+	</br>
+	<a href="login.html"><input type="submit"></a>
+	
+</center>
 </body>
 </html>
