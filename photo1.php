@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head><title>Assignmet 05</title></head>
-<body><center>
+<head><title>Login, Register and Photo Gallery</title></head>
+<body background="background.jpg"><center>
+
 	<h1>BejarascoG Photo Gallery</h1>
-	<br>
-	<img src="luffy1.jpg" width="200" height="300">
+	</br>
+	<img src="op1.jpg">
+	</br>
+	<a href="login.php">Logout</a>
+	</br>
+	</br>
+	<a href="home.php">Back to Home</a>
+	</br>
+	</br>
+	<a href="photo2.php">Next Photo</a>
 </center>
-<a href="index.php">Back to Home</a>
-<div align="right">
-<a href="photo2.php">Next Photo</a>
-</div>
 </body>
+</html>
