@@ -6,7 +6,7 @@
 	</br>
 	<input type="email"><b></label>
 	</br>
-	<a href="index.html"><input type="submit"></a>
+	<a href="index.php"><input type="submit"></a>
 	
 </center>
 </body>
