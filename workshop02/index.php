@@ -57,9 +57,3 @@
 </script> 
 </body> 
 </html>                 
-</script>
-</body>
-</html>
-
-
-
