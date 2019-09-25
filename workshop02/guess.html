@@ -1,0 +1,92 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@getupmen14 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+1
+00getupmen14/BejarascoG
+ Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights Settings
+BejarascoG/workshop02/guess.html
+@getupmen14 getupmen14 Rename index.html to guess.html
+eb215ff 10 hours ago
+60 lines (50 sloc)  1.26 KB
+  
+<html>
+<head><title>Number Guessing Game</title>
+<style>
+	html {
+	font-family: Arial;
+	}
+	body {
+	text-align: center;
+	color: White;
+	background-image: url("rasta.jpg");
+	}
+</style>
+</head>
+
+<body>
+	<h1 style="font-size: 500%;">Guess The Number</h1>
+	<p style=" font-size: 200%;">Try Guessing the number we have randomly selected from 1-10</p>
+
+<div class="form"> 
+	<label for="guessField">Enter a guess: </label> 
+    	<input type = "text" id = "guessField" class = "guessField"> 
+   	<input type = "submit" value = "Submit guess" 
+           class = "guessSubmit" id = "submitguess"> 
+</div> 
+
+
+<script type = "text/javascript"> 
+  
+	var y = Math.floor(Math.random() * 10 + 1); 
+      
+	var guess = 0; 
+      
+	document.getElementById("submitguess").onclick = function(){ 
+          
+	var x = document.getElementById("guessField").value; 
+  
+   	if(x == y) 
+   	{     
+       		alert("Congratulations! You Guess it Right"); 
+  	} 
+   	else if(x > y)
+   	{     
+       		guess++; 
+       		alert("Your guess is too high"); 
+   	}
+	else if(x<y)
+	{
+		guess++;
+		alert("Your guess is too low");
+	}
+   	else
+   	{ 
+       		guess++; 
+       		alert("Your guess is not a number") 
+   	} 
+} 
+</script> 
+</body> 
+</html>                 
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
