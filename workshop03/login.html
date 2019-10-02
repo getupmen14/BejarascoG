@@ -37,6 +37,7 @@ Login page
 </form></tr>
 <br/>
 <script language="javascript">
+<script language="javascript">
 function check(form)/*function to check userid & password*/
 {
  /*the following code checkes whether the entered userid and password are matching*/
@@ -44,11 +45,15 @@ function check(form)/*function to check userid & password*/
   {
    location="game.html" 
   }
- else
+ else if(form.userid.value=="" && form.pswrd.value=="")
   {
    alert("User name and password are required.")/*displays error message*/
+  }
+ else if(form.pswrd.value=="")
+  {
+   alert("Password is required")
   }
 }
 </script>
 </body>
-</html>
+</html>
