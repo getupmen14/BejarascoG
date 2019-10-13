@@ -1,0 +1,93 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px dotted purple;}
+
+body {
+	background-image:url("do.gif");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px dotted purple;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: solid;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: purple;
+}
+
+span.psw {
+  float: left;
+  padding-top: 16px;
+}
+
+</style>
+</head>
+<body>
+<h1 style="font-size: 500%; font-style: arial; color: purple;">Login to Proceed to TO'DO List</h1>
+<div>
+<tr>
+<td><form name="login"></td>
+<td>Username<input type="text" name="userid"/></td>
+</tr>
+<br/>
+<tr>
+<td>Password<input type="password" name="pswrd"/></td>
+<td><input type="button" onclick="check(this.form)" value="Login"/></td>
+<td><input type="reset" value="Cancel"/></td>
+</form></tr>
+<br/>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "username" && form.pswrd.value == "password")
+  {
+   alert("Welcome!")
+   alert("Welcome User: Gabriel Bejarasco")
+   location="do.html" 
+  }
+ else if(form.userid.value=="" && form.pswrd.value=="")
+  {
+   alert("User name and password are required.")/*displays error message*/
+  }
+ else if(form.userid.value=="")
+ {
+   alert("Username is required")
+ }
+ else if(form.pswrd.value=="")
+  {
+   alert("Password is required")/*displas requir password*/
+  }
+ else
+ {
+   alert("Incorrect Username or Password")
+ }
+}
+</script>
+</body>
+</html>
